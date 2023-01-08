@@ -16,6 +16,7 @@
             <p>Control your keyboard and mouse with the motions of your face. Winner of Hack Western 7.</p> 
         </div>
         <div class="card">
+            <img src="@/assets/password.png">
             <h2>Distributed Password Cracker</h2>
             <p>Bruteforce passwords efficiently by distributing the load among participating nodes.</p> 
         </div>
@@ -63,7 +64,7 @@ export default {
     .card img {
         height: 90%;
         width: 100%;
-        object-fit: cover;
+        object-fit: scale-down;
         border-top-left-radius: 5%;
         border-top-right-radius: 5%;
     }
