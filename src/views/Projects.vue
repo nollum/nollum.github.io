@@ -1,23 +1,21 @@
 <template>
   <div class="grid">
-    <!-- <a href="https://github.com/Nollum/spry" class="card">Spry</a> -->
         <div class="card">
-            <img src="spry.PNG">
+            <img src="@/assets/spry.png">
             <h2>Spry</h2>
             <p>A minimalist project management framework. Inspired by Trello.</p>
         </div>
         <div class="card">
-            <img src="pathfinding.PNG">
+            <img src="@/assets/pathfinding.png">
             <h2>Pathfinding Visualizer</h2>
             <p>A simple and vibrant pathfinding visualizer. Visualizes DFS, BFS, Dijkstra’s, and A*.</p> 
         </div>
         <div class="card">
-            <img src="handsfree.PNG">
+            <img src="@/assets/handsfree.png">
             <h2>HandsFree</h2>
             <p>Control your keyboard and mouse with the motions of your face. Winner of Hack Western 7.</p> 
         </div>
         <div class="card">
-            <!-- <img src="../../public/handsfree.PNG"> -->
             <h2>Distributed Password Cracker</h2>
             <p>Bruteforce passwords efficiently by distributing the load among participating nodes.</p> 
         </div>
@@ -37,7 +35,6 @@ export default {
     }
 
     .grid {
-        /* margin: auto; */
         margin: auto 20px;
         display: flex;
         justify-content: center;

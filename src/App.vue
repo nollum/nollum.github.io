@@ -6,12 +6,12 @@
  <div class="nav">
   <router-link :to="{ name: 'Home' }">Home</router-link> 
   <router-link :to="{ name: 'Projects' }">Projects</router-link> 
-  <a href="resume_v3.pdf" target="_blank">Resume</a>
+  <a href="/resume_v3.pdf" target="_blank">Resume</a>
  </div>
  <router-view />
  <div class="footer">
-  <a href="https://github.com/Nollum" target="_blank"><img src="github.png" alt="github"></a>
-  <a href="https://www.linkedin.com/in/mamedovrustam/" target="_blank"><img src="linkedin.png" alt="linkedin"></a>
+  <a href="https://github.com/Nollum" target="_blank"><img src="@/assets/github.png" alt="github"></a>
+  <a href="https://www.linkedin.com/in/mamedovrustam/" target="_blank"><img src="@/assets/linkedin.png" alt="linkedin"></a>
  </div>
  </main>
 </template>
