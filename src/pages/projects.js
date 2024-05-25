@@ -25,7 +25,7 @@ const ProjectsPage = () => {
               </li>
               <li>
                 <h1 style={linkStyle}><a href="https://github.com/nollum/micro-scheme">Micro Scheme</a></h1>
-                <p>A small scheme/s-expression interpreter</p>
+                <p>A small scheme/s-expression interpreter.</p>
               </li>
               <li>
                 <h1 style={linkStyle}><a href="https://github.com/nollum/spry">Spry</a></h1>
