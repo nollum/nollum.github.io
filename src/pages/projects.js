@@ -19,6 +19,10 @@ const ProjectsPage = () => {
         <div class="text-lg" style={{ display: "flex", flexDirection: "column", justifyContent: "center", maxWidth: "50vw" }}>
           <p style={{margin: "20px"}}>
             <ul>
+            <li>
+                <h1 style={linkStyle}><a href="https://github.com/nollum/balance-ball">Balance Ball</a></h1>
+                <p>Balance a rolling ball on a platform using GY-521 gyroscope/accelerometer module.</p> 
+              </li>
               <li>
                 <h1 style={linkStyle}><a href="https://github.com/nollum/risc-v-core">RISC-V Core</a></h1>
                 <p>A mini RISC-V core according to the RV32I spec, supporting R-type arithmetic instructions, lw, sw, and branching.</p> 
